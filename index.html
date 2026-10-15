@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f7f5f0">
-  <meta name="description" content="Orientação jurídica especializada em Direito Previdenciário. Análise de aposentadoria, revisão de benefícios e planejamento previdenciário com atendimento humanizado.">
-  <meta property="og:title" content="Direito Previdenciário | Orientação com segurança">
-  <meta property="og:description" content="Análise previdenciária responsável, planejamento e atendimento próximo em cada etapa.">
+  <meta name="theme-color" content="#f7f7f5">
+  <meta name="description" content="A Service Contabilidade apoia empresas e empreendedores com soluções contábeis, fiscais e de departamento pessoal. Fale com Jimmy Xavier pelo WhatsApp.">
+  <meta property="og:title" content="Service Contabilidade | Contabilidade para sua empresa">
+  <meta property="og:description" content="Mais clareza para cuidar da rotina contábil e tomar decisões no seu negócio. Entre em contato com a Service Contabilidade.">
   <meta property="og:type" content="website">
-  <title>Direito Previdenciário | Orientação com segurança</title>
+  <title>Service Contabilidade | Contabilidade para sua empresa</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -19,16 +19,15 @@
       theme: {
         extend: {
           colors: {
-            ink: '#172d3a',
-            'ink-soft': '#29424e',
-            bronze: '#a67b4e',
-            paper: '#f7f5f0',
-            linen: '#eeebe4',
-            muted: '#66737a'
+            ink: '#202328',
+            'ink-soft': '#40474d',
+            bronze: '#c83232',
+            paper: '#f7f7f5',
+            linen: '#f0f0ee',
+            muted: '#687078'
           },
           fontFamily: {
-            sans: ['DM Sans', 'sans-serif'],
-            display: ['Playfair Display', 'serif']
+            sans: ['DM Sans', 'sans-serif']
           }
         }
       }
@@ -36,81 +35,85 @@
   </script>
 </head>
 <body class="antialiased">
-  <header class="relative z-20 border-b border-ink/10 bg-paper/95">
-    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8 lg:px-12">
-      <a href="#inicio" class="flex items-center gap-3" aria-label="Direito Previdenciário, início">
-        <span class="grid h-11 w-11 place-items-center border border-bronze/70 text-bronze" aria-hidden="true">
-          <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 3v18M5 7h14M7 7l-4 8h8L7 7Zm10 0-4 8h8l-4-8ZM5 21h14"/></svg>
-        </span>
+  <header class="relative z-20 border-b border-ink/10 bg-white/95">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 sm:px-8 lg:px-12">
+      <a href="#inicio" class="flex items-center gap-3" aria-label="Service Contabilidade, início">
+        <img class="h-14 w-14 rounded-full object-cover" src="./assets/images/logo.jpg" alt="Logo Service Contabilidade" width="150" height="150">
         <span class="leading-tight">
-          <span class="block font-display text-lg sm:text-xl">Direito Previdenciário</span>
-          <span class="mt-1 block text-[9px] font-semibold uppercase tracking-[.2em] text-muted">Orientação jurídica especializada</span>
+          <span class="block text-lg font-bold sm:text-xl">Service Contabilidade</span>
+          <span class="mt-1 block text-[9px] font-semibold uppercase tracking-[.18em] text-muted">Contabilidade para sua empresa</span>
         </span>
       </a>
       <nav class="hidden items-center gap-8 md:flex" aria-label="Navegação principal">
-        <a class="text-sm text-ink-soft transition hover:text-bronze" href="#atuacao">Atuação</a>
-        <a class="text-sm text-ink-soft transition hover:text-bronze" href="#sobre">Sobre</a>
+        <a class="text-sm text-ink-soft transition hover:text-bronze" href="#servicos">Serviços</a>
+        <a class="text-sm text-ink-soft transition hover:text-bronze" href="#sobre">A Service</a>
         <a class="text-sm text-ink-soft transition hover:text-bronze" href="#contato">Contato</a>
-        <a class="inline-flex items-center gap-2 border border-ink px-5 py-3 text-xs font-semibold uppercase tracking-[.12em] transition hover:bg-ink hover:text-paper" href="#contato">
-          <span>Contato demonstrativo</span>
-          <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        <a class="inline-flex items-center gap-2 bg-bronze px-5 py-3 text-xs font-semibold uppercase tracking-[.08em] text-white transition hover:bg-[#a92727]" href="https://wa.me/558491217816?text=Ol%C3%A1%2C%20Jimmy!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Service%20Contabilidade." target="_blank" rel="noopener noreferrer">
+          <span>Fale pelo WhatsApp</span>
         </a>
       </nav>
       <button id="menu-toggle" class="grid h-11 w-11 place-items-center border border-ink/20 md:hidden" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
         <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
       </button>
     </div>
-    <nav id="mobile-menu" class="menu-panel border-t border-ink/10 bg-paper px-5 py-4 md:hidden" aria-label="Navegação móvel" hidden>
-      <a class="block py-3 text-sm" href="#atuacao">Atuação</a>
-      <a class="block py-3 text-sm" href="#sobre">Sobre</a>
+    <nav id="mobile-menu" class="menu-panel border-t border-ink/10 bg-white px-5 py-4 md:hidden" aria-label="Navegação móvel" hidden>
+      <a class="block py-3 text-sm" href="#servicos">Serviços</a>
+      <a class="block py-3 text-sm" href="#sobre">A Service</a>
       <a class="block py-3 text-sm" href="#contato">Contato</a>
-      <a class="mt-2 inline-flex w-full items-center justify-center bg-ink px-5 py-3 text-sm font-semibold text-paper" href="#contato">Contato demonstrativo</a>
+      <a class="mt-2 inline-flex w-full items-center justify-center bg-bronze px-5 py-3 text-sm font-semibold text-white" href="https://wa.me/558491217816?text=Ol%C3%A1%2C%20Jimmy!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Service%20Contabilidade." target="_blank" rel="noopener noreferrer">Fale pelo WhatsApp</a>
     </nav>
   </header>
 
   <main>
-    <section id="inicio" class="hero-texture relative min-h-[610px] overflow-hidden sm:min-h-[660px]">
-      <div class="mx-auto flex min-h-[610px] max-w-7xl items-center px-5 py-20 sm:min-h-[660px] sm:px-8 lg:px-12">
+    <section id="inicio" class="hero-texture relative overflow-hidden">
+      <div class="mx-auto flex min-h-[590px] max-w-7xl items-center px-5 py-20 sm:min-h-[640px] sm:px-8 lg:px-12">
         <div class="max-w-2xl">
-          <p class="eyebrow mb-6 text-[10px] font-semibold uppercase text-bronze sm:text-xs">Advocacia previdenciária · Natal e atendimento online</p>
-          <h1 class="max-w-[690px] text-[42px] leading-[1.12] text-ink sm:text-6xl lg:text-[68px]">Segurança para decidir os próximos passos da sua aposentadoria.</h1>
-          <p class="mt-6 max-w-xl text-base leading-7 text-ink-soft sm:text-lg sm:leading-8">Uma análise cuidadosa do seu histórico no INSS e orientação previdenciária feita para que você compreenda seus direitos e escolha com tranquilidade.</p>
+          <p class="eyebrow mb-6 text-[10px] font-bold uppercase text-bronze sm:text-xs">Service Contabilidade · Parceira do seu negócio</p>
+          <h1 class="max-w-[690px] text-4xl font-bold leading-[1.12] text-ink sm:text-6xl lg:text-[68px]">Sua empresa em dia. Suas decisões com mais clareza.</h1>
+          <p class="mt-6 max-w-xl text-base leading-7 text-ink-soft sm:text-lg sm:leading-8">Conte com apoio contábil para organizar a rotina da sua empresa, cuidar das obrigações e ter mais tranquilidade para focar no que faz seu negócio crescer.</p>
           <div class="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
-            <a class="inline-flex min-h-14 items-center justify-center gap-3 bg-ink px-7 py-4 text-sm font-semibold text-white transition hover:bg-ink-soft" href="#contato">
-              <span>Ver contato demonstrativo</span>
+            <a class="inline-flex min-h-14 items-center justify-center gap-3 bg-bronze px-7 py-4 text-sm font-semibold text-white transition hover:bg-[#a92727]" href="https://wa.me/558491217816?text=Ol%C3%A1%2C%20Jimmy!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Service%20Contabilidade." target="_blank" rel="noopener noreferrer">
+              <span>Converse com a gente</span>
+              <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
-            <a class="inline-flex items-center gap-2 py-3 text-sm font-medium text-ink-soft transition hover:text-bronze" href="#atuacao">Conheça as áreas de atuação <span aria-hidden="true">↓</span></a>
+            <a class="inline-flex items-center gap-2 py-3 text-sm font-medium text-ink-soft transition hover:text-bronze" href="#servicos">Conheça nossos serviços <span aria-hidden="true">↓</span></a>
           </div>
-          <p class="mt-6 text-xs leading-5 text-muted">Cada situação é analisada individualmente. A orientação depende dos documentos e do histórico contributivo apresentados.</p>
+          <p class="mt-6 text-xs leading-5 text-muted">Atendimento pelo WhatsApp com Jimmy Xavier.</p>
         </div>
       </div>
       <div class="absolute bottom-0 right-8 hidden h-16 w-px bg-bronze/70 lg:block" aria-hidden="true"></div>
     </section>
 
-    <section id="atuacao" class="bg-white py-20 sm:py-24">
+    <section id="servicos" class="bg-white py-20 sm:py-24">
       <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         <div class="mb-12 max-w-2xl sm:mb-16">
-          <p class="eyebrow text-[10px] font-semibold uppercase text-bronze sm:text-xs">Atuação previdenciária</p>
-          <h2 class="mt-4 text-4xl leading-tight sm:text-5xl">Orientação jurídica em cada etapa.</h2>
-          <p class="mt-5 max-w-xl leading-7 text-muted">Conheça as frentes de trabalho e receba uma avaliação alinhada à sua realidade previdenciária.</p>
+          <p class="eyebrow text-[10px] font-bold uppercase text-bronze sm:text-xs">Soluções contábeis</p>
+          <h2 class="mt-4 text-3xl font-bold leading-tight sm:text-5xl">Apoio para cada etapa da sua empresa.</h2>
+          <p class="mt-5 max-w-xl leading-7 text-muted">Uma rotina contábil organizada ajuda você a cumprir obrigações e acompanhar melhor o seu negócio.</p>
         </div>
-        <div class="grid gap-10 md:grid-cols-3 md:gap-8">
+        <div class="grid gap-10 sm:grid-cols-2 md:gap-8">
           <article class="border-t border-bronze pt-6">
-            <span class="font-display text-sm text-bronze">01</span>
-            <h3 class="mt-5 text-2xl">Concessão de aposentadoria</h3>
-            <p class="mt-4 leading-7 text-muted">Análise dos requisitos para aposentadoria por idade, por tempo de contribuição e especial, considerando as regras aplicáveis ao seu histórico.</p>
+            <span class="font-semibold text-bronze">01</span>
+            <h3 class="mt-5 text-2xl font-semibold">Contabilidade empresarial</h3>
+            <p class="mt-4 leading-7 text-muted">Organização e acompanhamento das informações contábeis para apoiar a gestão e manter os registros da empresa em ordem.</p>
             <div class="service-rule mt-7 w-16"></div>
           </article>
           <article class="border-t border-bronze pt-6">
-            <span class="font-display text-sm text-bronze">02</span>
-            <h3 class="mt-5 text-2xl">Revisão de benefícios</h3>
-            <p class="mt-4 leading-7 text-muted">Conferência dos dados e critérios utilizados na concessão para identificar, quando cabível, possibilidades de revisão conforme a legislação.</p>
+            <span class="font-semibold text-bronze">02</span>
+            <h3 class="mt-5 text-2xl font-semibold">Área fiscal e tributária</h3>
+            <p class="mt-4 leading-7 text-muted">Apoio na rotina fiscal e no cumprimento das obrigações tributárias, conforme o enquadramento e as atividades do negócio.</p>
             <div class="service-rule mt-7 w-16"></div>
           </article>
           <article class="border-t border-bronze pt-6">
-            <span class="font-display text-sm text-bronze">03</span>
-            <h3 class="mt-5 text-2xl">Planejamento previdenciário</h3>
-            <p class="mt-4 leading-7 text-muted">Estudo do histórico contributivo para compreender cenários, organizar contribuições e avaliar caminhos possíveis para a aposentadoria.</p>
+            <span class="font-semibold text-bronze">03</span>
+            <h3 class="mt-5 text-2xl font-semibold">Departamento pessoal</h3>
+            <p class="mt-4 leading-7 text-muted">Suporte às rotinas trabalhistas e às obrigações relacionadas aos colaboradores da empresa.</p>
+            <div class="service-rule mt-7 w-16"></div>
+          </article>
+          <article class="border-t border-bronze pt-6">
+            <span class="font-semibold text-bronze">04</span>
+            <h3 class="mt-5 text-2xl font-semibold">Abertura e regularização</h3>
+            <p class="mt-4 leading-7 text-muted">Orientação contábil para quem está começando ou precisa colocar a documentação e os registros da empresa em ordem.</p>
             <div class="service-rule mt-7 w-16"></div>
           </article>
         </div>
@@ -118,22 +121,21 @@
     </section>
 
     <section id="sobre" class="overflow-hidden bg-linen py-20 sm:py-24">
-      <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 md:grid-cols-[.85fr_1.15fr] md:gap-20 lg:px-12">
-        <div class="mx-auto w-full max-w-md px-4 pb-4 md:mx-0">
-          <div class="image-frame aspect-[4/5] overflow-hidden bg-[#d9d4ca]">
-            <img class="h-full w-full object-cover object-center" src="./assets/images/lawyer-portrait.jpg" alt="Retrato profissional de um advogado" loading="lazy" width="800" height="1000">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 md:grid-cols-[.85fr_1.15fr] md:gap-20 lg:px-12">
+        <div class="mx-auto w-full max-w-sm px-4 pb-4 md:mx-0">
+          <div class="image-frame grid aspect-square place-items-center overflow-hidden bg-white p-8 sm:p-12">
+            <img class="h-full w-full rounded-full object-contain" src="./assets/images/logo.jpg" alt="Logo da Service Contabilidade" loading="lazy" width="500" height="500">
           </div>
-          <p class="mt-7 text-center text-xs uppercase tracking-[.15em] text-muted">Atendimento próximo, orientação responsável</p>
+          <p class="mt-7 text-center text-xs font-semibold uppercase tracking-[.15em] text-muted">Service Contabilidade</p>
         </div>
         <div class="max-w-2xl">
-          <p class="eyebrow text-[10px] font-semibold uppercase text-bronze sm:text-xs">Sobre o especialista</p>
-          <h2 class="mt-4 text-4xl leading-tight sm:text-5xl">O cuidado com a sua história vem primeiro.</h2>
+          <p class="eyebrow text-[10px] font-bold uppercase text-bronze sm:text-xs">Sobre a Service</p>
+          <h2 class="mt-4 text-3xl font-bold leading-tight sm:text-5xl">Mais parceria para cuidar da sua empresa.</h2>
           <div class="mt-7 space-y-5 text-base leading-7 text-ink-soft">
-            <p>A aposentadoria representa anos de dedicação, trabalho e cuidado com a família. Por isso, cada atendimento começa com escuta atenta e respeito à trajetória de quem busca orientação.</p>
-            <p>A atuação é guiada pela fé, por valores familiares e pelo compromisso de traduzir questões previdenciárias com clareza, para que cada pessoa possa tomar decisões bem informadas.</p>
-            <p>A vivência em mais de 25 países ampliou o olhar sobre diferentes culturas e histórias. Essa bagagem reforça uma forma acolhedora e atenta de compreender cada pessoa, sempre com responsabilidade profissional.</p>
+            <p>A contabilidade faz parte das decisões e da rotina de todo negócio. A Service Contabilidade está aqui para ajudar você a entender suas obrigações e manter os processos contábeis mais organizados.</p>
+            <p>Com atendimento próximo e comunicação clara, você pode conversar sobre as necessidades da sua empresa e encontrar o suporte contábil adequado para cada momento.</p>
           </div>
-          <a class="mt-8 inline-flex items-center gap-3 border-b border-bronze pb-2 text-sm font-semibold text-ink transition hover:text-bronze" href="#contato">Ver informações demonstrativas <span aria-hidden="true">→</span></a>
+          <a class="mt-8 inline-flex items-center gap-3 border-b border-bronze pb-2 text-sm font-semibold text-ink transition hover:text-bronze" href="https://wa.me/558491217816?text=Ol%C3%A1%2C%20Jimmy!%20Gostaria%20de%20conhecer%20a%20Service%20Contabilidade." target="_blank" rel="noopener noreferrer">Fale com Jimmy Xavier <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -142,22 +144,22 @@
       <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
         <div class="grid gap-12 md:grid-cols-[.8fr_1.2fr] md:gap-20">
           <div>
-            <p class="eyebrow text-[10px] font-semibold uppercase text-[#c6a77f] sm:text-xs">Por que buscar orientação especializada</p>
-            <h2 class="mt-4 text-4xl leading-tight sm:text-5xl">Mais clareza. Menos preocupação.</h2>
-            <p class="mt-5 max-w-md leading-7 text-white/70">Conte com acompanhamento jurídico para entender procedimentos e avaliar suas opções com informação e serenidade.</p>
+            <p class="eyebrow text-[10px] font-bold uppercase text-[#f28a8a] sm:text-xs">Uma contabilidade mais próxima</p>
+            <h2 class="mt-4 text-3xl font-bold leading-tight sm:text-5xl">Clareza para cuidar. Confiança para crescer.</h2>
+            <p class="mt-5 max-w-md leading-7 text-white/70">Conte com uma conversa direta para entender as necessidades contábeis do seu negócio.</p>
           </div>
           <div class="divide-y divide-white/15">
             <article class="grid gap-3 py-6 sm:grid-cols-[52px_1fr] sm:gap-6">
-              <span class="font-display text-lg text-[#c6a77f]">01</span>
-              <div><h3 class="text-2xl">Tempo bem direcionado</h3><p class="mt-2 leading-7 text-white/65">Organização dos documentos e orientação sobre as etapas do processo, de acordo com a sua situação.</p></div>
+              <span class="font-semibold text-[#f28a8a]">01</span>
+              <div><h3 class="text-2xl font-semibold">Atendimento próximo</h3><p class="mt-2 leading-7 text-white/65">Converse diretamente com Jimmy Xavier pelo WhatsApp.</p></div>
             </article>
             <article class="grid gap-3 py-6 sm:grid-cols-[52px_1fr] sm:gap-6">
-              <span class="font-display text-lg text-[#c6a77f]">02</span>
-              <div><h3 class="text-2xl">Acompanhamento da burocracia</h3><p class="mt-2 leading-7 text-white/65">Suporte na compreensão de exigências e procedimentos junto ao INSS, com comunicação clara ao longo do caminho.</p></div>
+              <span class="font-semibold text-[#f28a8a]">02</span>
+              <div><h3 class="text-2xl font-semibold">Informação clara</h3><p class="mt-2 leading-7 text-white/65">Entenda os próximos passos e as obrigações contábeis da sua empresa.</p></div>
             </article>
             <article class="grid gap-3 py-6 sm:grid-cols-[52px_1fr] sm:gap-6">
-              <span class="font-display text-lg text-[#c6a77f]">03</span>
-              <div><h3 class="text-2xl">Atenção aos detalhes</h3><p class="mt-2 leading-7 text-white/65">Conferência do histórico e dos documentos para reduzir o risco de inconsistências que possam afetar a análise do benefício.</p></div>
+              <span class="font-semibold text-[#f28a8a]">03</span>
+              <div><h3 class="text-2xl font-semibold">Suporte para o seu negócio</h3><p class="mt-2 leading-7 text-white/65">Busque orientação contábil alinhada à realidade e ao momento da sua empresa.</p></div>
             </article>
           </div>
         </div>
@@ -166,35 +168,43 @@
 
     <section id="contato" class="bg-paper py-20 sm:py-24">
       <div class="mx-auto max-w-4xl px-5 text-center sm:px-8">
-        <p class="eyebrow text-[10px] font-semibold uppercase text-bronze sm:text-xs">Informações demonstrativas</p>
-        <h2 class="mx-auto mt-4 max-w-3xl text-4xl leading-tight sm:text-5xl">Canais fictícios para apresentação do layout.</h2>
-        <p class="mx-auto mt-5 max-w-2xl leading-7 text-muted">Os dados abaixo são exemplos visuais. Não correspondem a contatos reais e não iniciam atendimento.</p>
-        <div class="mx-auto mt-10 grid max-w-3xl gap-6 border-y border-ink/15 py-7 text-left sm:grid-cols-3 sm:gap-8">
-          <div><p class="text-xs font-semibold uppercase tracking-[.12em] text-bronze">Telefone</p><p class="mt-2 text-base text-ink">(00) 00000-0000</p></div>
-          <div><p class="text-xs font-semibold uppercase tracking-[.12em] text-bronze">E-mail</p><p class="mt-2 break-words text-base text-ink">contato@exemplo.com</p></div>
-          <div><p class="text-xs font-semibold uppercase tracking-[.12em] text-bronze">Instagram</p><p class="mt-2 text-base text-ink">@advocacia.exemplo</p></div>
+        <p class="eyebrow text-[10px] font-bold uppercase text-bronze sm:text-xs">Entre em contato</p>
+        <h2 class="mx-auto mt-4 max-w-3xl text-3xl font-bold leading-tight sm:text-5xl">Vamos conversar sobre a sua empresa?</h2>
+        <p class="mx-auto mt-5 max-w-2xl leading-7 text-muted">Fale com Jimmy Xavier pelo WhatsApp ou acompanhe a Service Contabilidade no Instagram.</p>
+        <div class="mx-auto mt-10 grid max-w-3xl gap-6 border-y border-ink/15 py-7 text-left sm:grid-cols-2 sm:gap-8">
+          <div>
+            <p class="text-xs font-bold uppercase tracking-[.12em] text-bronze">WhatsApp</p>
+            <a class="mt-2 inline-block text-base text-ink transition hover:text-bronze" href="https://wa.me/558491217816?text=Ol%C3%A1%2C%20Jimmy!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Service%20Contabilidade." target="_blank" rel="noopener noreferrer">Jimmy Xavier · +55 84 9121-7816</a>
+          </div>
+          <div>
+            <p class="text-xs font-bold uppercase tracking-[.12em] text-bronze">Instagram</p>
+            <a class="mt-2 inline-block text-base text-ink transition hover:text-bronze" href="https://www.instagram.com/service.contabilidade/" target="_blank" rel="noopener noreferrer">@service.contabilidade</a>
+          </div>
         </div>
-        <p class="mt-5 text-xs text-muted">Demonstração sem canais de atendimento ativos.</p>
+        <a class="mt-8 inline-flex min-h-14 items-center justify-center bg-bronze px-7 py-4 text-sm font-semibold text-white transition hover:bg-[#a92727]" href="https://wa.me/558491217816?text=Ol%C3%A1%2C%20Jimmy!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Service%20Contabilidade." target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
       </div>
     </section>
   </main>
 
   <footer class="border-t border-ink/10 bg-white">
     <div class="mx-auto flex max-w-7xl flex-col gap-7 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
-      <div>
-        <p class="font-display text-xl">Direito Previdenciário</p>
-        <p class="mt-1 text-xs text-muted">Atendimento em Natal e online.</p>
+      <div class="flex items-center gap-3">
+        <img class="h-12 w-12 rounded-full object-cover" src="./assets/images/logo.jpg" alt="" width="150" height="150">
+        <div>
+          <p class="font-bold">Service Contabilidade</p>
+          <p class="mt-1 text-xs text-muted">Contabilidade para sua empresa.</p>
+        </div>
       </div>
       <div class="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-ink-soft">
-        <span>Telefone fictício: (00) 00000-0000</span>
-        <span>E-mail fictício: contato@exemplo.com</span>
+        <a href="https://wa.me/558491217816" target="_blank" rel="noopener noreferrer">WhatsApp: +55 84 9121-7816</a>
+        <a href="https://www.instagram.com/service.contabilidade/" target="_blank" rel="noopener noreferrer">Instagram</a>
       </div>
-      <p class="text-xs text-muted">© <span id="current-year">2026</span> · Conteúdo informativo. Cada caso exige análise individual.</p>
+      <p class="text-xs text-muted">© <span id="current-year">2026</span> Service Contabilidade</p>
     </div>
   </footer>
 
-  <a class="fixed bottom-5 right-5 z-30 grid h-14 w-14 place-items-center bg-bronze text-white shadow-lg transition hover:bg-[#89613a] focus:outline-none focus:ring-2 focus:ring-bronze focus:ring-offset-2" href="#contato" aria-label="Ver dados de contato demonstrativos">
-    <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  <a class="fixed bottom-5 right-5 z-30 grid h-14 w-14 place-items-center rounded-full bg-bronze text-white shadow-lg transition hover:bg-[#a92727] focus:outline-none focus:ring-2 focus:ring-bronze focus:ring-offset-2" href="https://wa.me/558491217816?text=Ol%C3%A1%2C%20Jimmy!%20Gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Service%20Contabilidade." target="_blank" rel="noopener noreferrer" aria-label="Fale com Jimmy Xavier pelo WhatsApp">
+    <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 11.5a7.5 7.5 0 0 1-11.1 6.6L4 19l.9-4.6A7.5 7.5 0 1 1 20 11.5Z"/><path d="M9 9.2c.2-.5.5-.5.8-.5h.4c.2 0 .3.1.4.4l.6 1.4c.1.2 0 .4-.1.5l-.5.6c-.2.2-.2.3-.1.5.4.7 1 1.3 1.7 1.7.2.1.4.1.5-.1l.6-.7c.2-.2.3-.2.5-.1l1.4.7c.2.1.3.2.3.4 0 .3-.2.9-.6 1.1-.4.3-.9.5-1.5.4-.7-.1-1.6-.5-2.5-1.3-.9-.8-1.6-1.7-1.8-2.4-.3-.7-.2-1.5.1-2.1.1-.2.1-.3.2-.5Z"/></svg>
   </a>
 
   <script src="./assets/js/main.js" defer></script>

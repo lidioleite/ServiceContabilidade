@@ -1,9 +1,9 @@
 :root {
   color-scheme: light;
-  --ink: #172d3a;
-  --bronze: #a67b4e;
-  --paper: #f7f5f0;
-  --muted: #66737a;
+  --ink: #202328;
+  --bronze: #c83232;
+  --paper: #f7f7f5;
+  --muted: #687078;
 }
 
 html {
@@ -19,16 +19,13 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .hero-texture {
-  background-image:
-    linear-gradient(90deg, rgba(247, 245, 240, .98) 0%, rgba(247, 245, 240, .92) 45%, rgba(247, 245, 240, .14) 100%),
-    url('../images/hero-office.jpg');
-  background-size: cover;
-  background-position: center, 62% 42%;
+  background:
+    radial-gradient(ellipse at 90% 12%, rgba(200, 50, 50, .11), transparent 34%),
+    linear-gradient(125deg, #f7f7f5 0%, #f7f7f5 58%, #efefed 100%);
 }
 
 .image-frame {
@@ -39,7 +36,7 @@ h3 {
   content: '';
   position: absolute;
   inset: 14px -14px -14px 14px;
-  border: 1px solid rgba(166, 123, 78, .65);
+  border: 1px solid rgba(200, 50, 50, .55);
   pointer-events: none;
 }
 
@@ -49,20 +46,11 @@ h3 {
 
 .service-rule {
   height: 1px;
-  background: linear-gradient(90deg, var(--bronze), rgba(166, 123, 78, 0));
+  background: linear-gradient(90deg, var(--bronze), rgba(200, 50, 50, 0));
 }
 
 .menu-panel[hidden] {
   display: none;
-}
-
-@media (max-width: 767px) {
-  .hero-texture {
-    background-image:
-      linear-gradient(90deg, rgba(247, 245, 240, .97), rgba(247, 245, 240, .88)),
-      url('../images/hero-office.jpg');
-    background-position: center;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1,6 +1,6 @@
-# Site de Advocacia Previdenciária
+# Service Contabilidade
 
-Landing page institucional estática para divulgação de serviços de Direito Previdenciário.
+Landing page institucional estática para apresentação dos serviços da Service Contabilidade.
 
 ## Estrutura
 
@@ -12,15 +12,14 @@ SiteAdvocacia/
     ├── css/
     │   └── styles.css
     ├── images/
-    │   ├── hero-office.jpg
-    │   └── lawyer-portrait.jpg
+    │   └── logo.jpg
     └── js/
         └── main.js
 ```
 
 ## Desenvolvimento local
 
-Abra `index.html` no navegador. O projeto não exige instalação de dependências nem etapa de build. Tailwind CSS e as fontes tipográficas são carregados por CDN; por isso, esses recursos dependem de conexão com a internet.
+Abra `index.html` no navegador. O projeto não exige instalação de dependências nem etapa de build. Tailwind CSS e a fonte tipográfica são carregados por CDN; por isso, esses recursos dependem de conexão com a internet.
 
 ## Publicação na Vercel
 
@@ -32,12 +31,11 @@ Importe o repositório na Vercel usando a configuração estática (`Other`):
 
 O `index.html` na raiz será usado como página inicial.
 
-## Antes de publicar
+## Contatos e identidade
 
-- Substitua `assets/images/lawyer-portrait.jpg` pela foto profissional autorizada do advogado.
-- Atualize o título da marca e inclua nome completo e número de inscrição na OAB, após confirmação desses dados.
-- Os contatos exibidos são fictícios e servem apenas para demonstração.
-- Antes de ativar o site, substitua telefone, e-mail, Instagram, área de atendimento e informações institucionais pelos dados autorizados.
-- Revise o conteúdo e a publicidade conforme as normas vigentes da OAB.
+- Marca: Service Contabilidade
+- WhatsApp: Jimmy Xavier — +55 84 9121-7816
+- Instagram: [@service.contabilidade](https://www.instagram.com/service.contabilidade/)
+- Logo: `assets/images/logo.jpg`
 
-Os botões de contato atualmente apenas direcionam para a seção de dados demonstrativos. Nenhuma chamada, mensagem ou navegação para redes sociais é iniciada.
+Os botões de WhatsApp abrem uma conversa com o número informado. Revise os serviços e as informações institucionais antes da publicação.
