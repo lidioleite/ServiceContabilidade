@@ -23,7 +23,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 sm:px-8 lg:px-12">
         <a href="#inicio" className="flex items-center gap-3" aria-label="Service Contabilidade, início">
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.png"
             alt=""
             width={54}
             height={54}
