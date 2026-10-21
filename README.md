@@ -1,41 +1,34 @@
 # Service Contabilidade
 
-Landing page institucional estática para apresentação dos serviços da Service Contabilidade.
+Landing page institucional em Next.js 14 (App Router), TypeScript e Tailwind CSS.
 
-## Estrutura
+## Desenvolvimento
 
-```text
-SiteAdvocacia/
-├── index.html
-├── README.md
-└── assets/
-    ├── css/
-    │   └── styles.css
-    ├── images/
-    │   └── logo.jpg
-    └── js/
-        └── main.js
+```bash
+npm install
+npm run dev
 ```
 
-## Desenvolvimento local
+Abra `http://localhost:3000`. Para validar e gerar a versão de produção:
 
-Abra `index.html` no navegador. O projeto não exige instalação de dependências nem etapa de build. Tailwind CSS e a fonte tipográfica são carregados por CDN; por isso, esses recursos dependem de conexão com a internet.
+```bash
+npm run typecheck
+npm run build
+npm start
+```
 
-## Publicação na Vercel
+## Organização
 
-Importe o repositório na Vercel usando a configuração estática (`Other`):
+- `src/app/`: página inicial, metadados e estilos globais.
+- `src/components/`: navegação e formulários de contato.
+- `src/data/accountingServices.ts`: serviços, segmentos e faixas de faturamento.
+- `src/data/companyInfo.ts`: contatos e informações institucionais.
+- `src/services/leadService.ts`: montagem e envio da mensagem inicial ao WhatsApp.
+- `public/images/logo.jpg`: logo utilizada na página.
 
-- Root Directory: `.`
-- Build Command: vazio
-- Output Directory: `.`
+Atualize `companyInfo.ts` para configurar o portal do cliente, CRC, endereço e horário quando os dados oficiais estiverem disponíveis. O formulário de atendimento abre uma conversa no WhatsApp e não estima impostos.
 
-O `index.html` na raiz será usado como página inicial.
+## Informações de contato atualmente configuradas
 
-## Contatos e identidade
-
-- Marca: Service Contabilidade
 - WhatsApp: Jimmy Xavier — +55 84 9121-7816
 - Instagram: [@service.contabilidade](https://www.instagram.com/service.contabilidade/)
-- Logo: `assets/images/logo.jpg`
-
-Os botões de WhatsApp abrem uma conversa com o número informado. Revise os serviços e as informações institucionais antes da publicação.
