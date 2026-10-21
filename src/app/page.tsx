@@ -263,7 +263,7 @@ export default function Home() {
             <div className="mx-auto w-full max-w-xs">
               <div className="border border-line bg-white p-6 shadow-subtle">
                 <Image
-                  src="/images/logo.jpg"
+                  src="/images/logo.png"
                   alt="Logo da Service Contabilidade"
                   width={360}
                   height={360}
@@ -389,7 +389,7 @@ export default function Home() {
           <div>
             <a href="#inicio" className="inline-flex items-center gap-3">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo.png"
                 alt=""
                 width={44}
                 height={44}

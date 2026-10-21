@@ -24,7 +24,7 @@ npm start
 - `src/data/accountingServices.ts`: serviços, segmentos e faixas de faturamento.
 - `src/data/companyInfo.ts`: contatos e informações institucionais.
 - `src/services/leadService.ts`: montagem e envio da mensagem inicial ao WhatsApp.
-- `public/images/logo.jpg`: logo utilizada na página.
+- `public/images/logo.png`: logo utilizada na página.
 
 Atualize `companyInfo.ts` para configurar o portal do cliente, CRC, endereço e horário quando os dados oficiais estiverem disponíveis. O formulário de atendimento abre uma conversa no WhatsApp e não estima impostos.
 
